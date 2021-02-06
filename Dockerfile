@@ -1,5 +1,5 @@
 FROM nginx:latest 
-MAINTAINER kattasandeep6191@gmail.com 
+MAINTAINER sandeepkatta6191@gmail.com 
 RUN apt install -y curl
 COPY index.html /usr/share/nginx/html/
 COPY scorekeeper.js /usr/share/nginx/html/
